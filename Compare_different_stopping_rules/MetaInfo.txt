@@ -1,0 +1,21 @@
+Name of Quantlet:   "Compare_different_stopping_rules"
+
+
+
+Description:        "Here different stopping rules for (L2-)Boosting method are investigated. 
+                     We compared the performance of L2-Boosting algorithm using different stopping criteria like:
+                        corrected AIC(Bühlmann, 2006), gMDL(Hansen and Yu, 2001), CV, and early stopping.
+                                        
+                     In the simulation setting, we used Gaussian multivariate data for predictor variables with a real-valued outcome variable.
+                     The performance of each algorithm is measured by mean MSE.
+                     
+                     In the practical application, the data for ___ is used." 
+	           
+
+
+Keywords:           L2-Boosting, stopping rules, corrected AIC, gMDL, CV, early stopping performance measure
+
+
+                    
+Output:             "Simulation results_*.jpg,
+                     ____.jpg"
