@@ -1,0 +1,20 @@
+Name of Quantlet:   "Compare_different_algorithms"
+
+
+
+Description:        "This is to compare the performance of L2-Boosting with different linear algorithms in high dimensional linear settings.
+                     As comparables, we used OLS, Forward Stagewise Linear Regression (FSLR), LASSO, Ridge regression methods.
+                     
+                     The performance of each algorithm is measured by mean MSE.
+                     
+                     In the simulation setting, we used Gaussian multivariate data.
+                     In the practical application, the data for ___ is used." 
+	           
+
+
+Keywords:           L2-Boosting, OLS, FSLR, LASSO, Ridge, high dimensional linear setting, performance measure
+
+
+                    
+Output:             "Simulation results_*.jpg,
+                     ____.jpg"
