@@ -1,0 +1,9 @@
+Description:        "A Python implementation of L2-Boosting" 
+
+
+Author:             Bernhard Stankewitz (stankebe@math.hu-berlin.de)
+
+
+Keywords:           L2-Boosting, corrected AIC, early stopping, bias-variance trade-off
+
+            
