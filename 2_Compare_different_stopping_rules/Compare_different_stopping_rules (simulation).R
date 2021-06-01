@@ -1,8 +1,6 @@
 ###############################################################################
 ############### Comparison over different Stopping Criteria  ##################
 ###############################################################################
-rm(list = ls())
-
 library(MASS)
 library(glmnet)
 library(mboost)
@@ -193,9 +191,6 @@ for (m in 1:M) {
 }
 
 
-setwd('C:/Users/Seokhee2/Desktop/graphics')
-file.name = paste0('n',n,'p',p,'M',M,'B',B,'corr',corr,'.png')
-png(file.name,width = 1200, height = 834, pointsize = 25,bg = "transparent")
 plot(colMeans(MSEval), type = 'l', ylim = c(0,20), xlab = '# of iteration',
      ylab = 'Mean MSE')
 abline(v = mean(mstop$AIC), col = 'red')
@@ -214,9 +209,5 @@ legend("topright",
        c("L2 Boosting", "corrected AIC", 'gMDL','CV 10 fold', 'CV bootstrap', 
          'out-of-sample early stopping', 'in-sample early stopping'),
        fill = c("black", "red", 'blue','green', 'purple', 'orange', 'pink'))
-dev.off()
 
-colMeans(Acc)
-colMeans(Corr)
 
-colMeans(MSEtrain)[599]
